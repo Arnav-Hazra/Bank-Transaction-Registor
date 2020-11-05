@@ -17,7 +17,9 @@ http://localhost:8888/v1/addtransaction?account_no=123456&date="05November20"&ty
 http://localhost:8888/v1/addtransaction?account_no=123456&date="05October20"&type="withdraw"&amount=500
 
 >to get transactions
+
 http://localhost:8888/v1/gettransaction?account_no=123456
+
 http://localhost:8888/v1/gettransaction?account_no=12345
 
 >to get Sum of deposits
