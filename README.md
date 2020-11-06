@@ -22,6 +22,6 @@ http://localhost:8888/v1/gettransaction?account_no=123456
 
 http://localhost:8888/v1/gettransaction?account_no=12345
 
->to get Sum of deposits
+>to get Sum of total amount in bank
 http://localhost:8888/v1/getsum
   
