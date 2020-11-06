@@ -29,4 +29,6 @@ class Register:
         for i in range(len(self.register)):
             if self.register[i]['Type'] == u'"deposit"' :
                 sum = sum + int(self.register[i]['Amount'])
+            else:
+                sum = sum - int(self.register[i]['Amount'])
         return sum
