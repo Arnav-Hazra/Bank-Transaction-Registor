@@ -3,14 +3,17 @@
 instructions for Bank Transaction Register
 -by Arnav Hazra
 
-To start the app, open terminal and cd to the folder and run
-	python api.py
+To start the app,
+clone this repository, open terminal
+cd Bank-Transaction-Registor
+python api.py
 
 in browser:
 >to start the app
 http://localhost:8888/v1
 
 >to add transactions
+Can change the variables according to need
 http://localhost:8888/v1/addtransaction?account_no=12345&date="05October20"&type="deposit"&amount=1200
 http://localhost:8888/v1/addtransaction?account_no=12345&date="10October20"&type="deposit"&amount=1500
 http://localhost:8888/v1/addtransaction?account_no=123456&date="05November20"&type="deposit"&amount=2000
