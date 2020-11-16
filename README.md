@@ -24,6 +24,8 @@ http://localhost:8888/v1/addtransaction?account_no=123456&date="05October20"&typ
 http://localhost:8888/v1/gettransaction?account_no=123456
 
 http://localhost:8888/v1/gettransaction?account_no=12345
+an account that dosent exist:
+http://localhost:8888/v1/gettransaction?account_no=1234
 
 >to get Sum of total amount in bank
 http://localhost:8888/v1/getsum
