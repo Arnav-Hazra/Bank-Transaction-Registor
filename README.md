@@ -9,7 +9,8 @@ To start the app,
 * cd Bank-Transaction-Registor  
 * Will also require tornado to run this app, to install tornado
   - pip install tornado
-* python api.py  
+* To run the app:
+  - python api.py  
 
 in browser:  
 > enter the following to use the apps different functions  
